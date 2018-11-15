@@ -1,7 +1,0 @@
-/var/lib/jenkins/jobs/Publish-fiix-cmms-api-java-examples/workspace/fiix-cmms-api-java-examples-private-repo/src/main/java/com/fiix/api/example/utils/ResponseLogger.java
-/var/lib/jenkins/jobs/Publish-fiix-cmms-api-java-examples/workspace/fiix-cmms-api-java-examples-private-repo/src/main/java/com/fiix/api/example/app/ExampleDriver.java
-/var/lib/jenkins/jobs/Publish-fiix-cmms-api-java-examples/workspace/fiix-cmms-api-java-examples-private-repo/src/main/java/com/fiix/api/example/workorder/AssetExamples.java
-/var/lib/jenkins/jobs/Publish-fiix-cmms-api-java-examples/workspace/fiix-cmms-api-java-examples-private-repo/src/main/java/com/fiix/api/example/workorder/WorkOrderExample.java
-/var/lib/jenkins/jobs/Publish-fiix-cmms-api-java-examples/workspace/fiix-cmms-api-java-examples-private-repo/src/main/java/com/fiix/api/example/rpc/PingRpcExample.java
-/var/lib/jenkins/jobs/Publish-fiix-cmms-api-java-examples/workspace/fiix-cmms-api-java-examples-private-repo/src/main/java/com/fiix/api/example/crud/CrudRequestExample.java
-/var/lib/jenkins/jobs/Publish-fiix-cmms-api-java-examples/workspace/fiix-cmms-api-java-examples-private-repo/src/main/java/com/fiix/api/example/utils/CredentialProvider.java
