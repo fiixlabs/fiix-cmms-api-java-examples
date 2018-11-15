@@ -1,8 +1,8 @@
 # Fiix Cmms Client Java Examples
 
-## Overview:
+## Overview
 
-This project contains various examples of how to use the [Fiix-Cmms-Java-Client SDK](https://github.com/macmms/fiix-cmms-client-java). It covers the basics of making CRUD and RPC requests using the SDK, as well as a more in depth overview on creating Work Orders, and associating them with Tasks and Assets.
+This project contains various examples of how to use the [Fiix-Cmms-Java-Client SDK](https://github.com/fiixlabs/fiix-cmms-client-java). It covers the basics of making CRUD and RPC requests using the SDK, as well as a more in depth overview on creating Work Orders, and associating them with Tasks and Assets.
 
 Documentation for the API can be found [here](https://fiixlabs.github.io/api-documentation).
 
