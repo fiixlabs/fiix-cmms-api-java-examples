@@ -1,0 +1,7 @@
+com/fiix/api/example/crud/CrudRequestExample.class
+com/fiix/api/example/utils/ResponseLogger.class
+com/fiix/api/example/utils/CredentialProvider.class
+com/fiix/api/example/rpc/PingRpcExample.class
+com/fiix/api/example/workorder/AssetExamples.class
+com/fiix/api/example/app/ExampleDriver.class
+com/fiix/api/example/workorder/WorkOrderExample.class

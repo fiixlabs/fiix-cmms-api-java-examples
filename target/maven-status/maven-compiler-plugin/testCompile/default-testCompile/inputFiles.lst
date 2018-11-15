@@ -1,0 +1,4 @@
+/var/lib/jenkins/jobs/Publish-fiix-cmms-api-java-examples/workspace/fiix-cmms-api-java-examples-private-repo/src/test/java/com/fiix/api/example/workorder/WorkOrderExampleTest.java
+/var/lib/jenkins/jobs/Publish-fiix-cmms-api-java-examples/workspace/fiix-cmms-api-java-examples-private-repo/src/test/java/com/fiix/api/example/rpc/PingRpcExampleTest.java
+/var/lib/jenkins/jobs/Publish-fiix-cmms-api-java-examples/workspace/fiix-cmms-api-java-examples-private-repo/src/test/java/com/fiix/api/example/workorder/AssetExamplesTest.java
+/var/lib/jenkins/jobs/Publish-fiix-cmms-api-java-examples/workspace/fiix-cmms-api-java-examples-private-repo/src/test/java/com/fiix/api/example/crud/CrudRequestExampleTest.java
