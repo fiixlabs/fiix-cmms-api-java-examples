@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.fiix.api.examples</groupId>
 	<artifactId>fiix-cmms-api-java-examples</artifactId>
-	<version>1.0.2</version>
+	<version>1.1.0</version>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
@@ -63,7 +63,7 @@
 		<repository>
 			<id>nexus</id>
 			<name>Nexus Repo</name>
-			<url>https://repo.fiixlabs.com</url>
+			<url>https://repo.fiixlabs.com/repository/fiix-public/</url>
 		</repository>
 	</repositories>
 </project>
