@@ -5,6 +5,7 @@ import java.util.Collections;
 import java.util.List;
 
 import com.fiix.api.example.utils.CredentialProvider;
+import com.fiix.api.example.utils.MyProxyCredentials;
 import com.fiix.api.example.utils.ResponseLogger;
 import com.ma.cmms.api.client.FiixCmmsClient;
 import com.ma.cmms.api.client.dto.Asset;
@@ -45,7 +46,7 @@ public class CrudRequestExample {
 	 */
 	public CrudRequestExample() {
 		this.fiixCmmsClient = new FiixCmmsClient(CredentialProvider.getCredentials(),
-				CredentialProvider.TENANT_API_ENDPOINT);
+				CredentialProvider.TENANT_API_ENDPOINT, new MyProxyCredentials());
 	}
 
 	/**

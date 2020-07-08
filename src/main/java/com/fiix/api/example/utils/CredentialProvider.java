@@ -1,6 +1,6 @@
 package com.fiix.api.example.utils;
 
-import com.ma.cmms.api.client.BasicCredentials;
+import com.ma.cmms.api.client.CmmsAccessKeyCredentials;
 import com.ma.cmms.api.client.Credentials;
 
 /**
@@ -20,9 +20,10 @@ public final class CredentialProvider {
 	private static final String API_SECRET_KEY = "YOUR-API_SECRET_KEY";
 
 	private static final String TENANT_URL = "YOUR-TENANT_URL";
+
 	public static final String TENANT_API_ENDPOINT = TENANT_URL + "/api/";
 
-	private static final Credentials credentials = new BasicCredentials(API_APPLICATION_KEY, API_ACCESS_KEY,
+	private static final Credentials credentials = new CmmsAccessKeyCredentials(API_APPLICATION_KEY, API_ACCESS_KEY,
 			API_SECRET_KEY);
 
 	private CredentialProvider() {

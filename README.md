@@ -6,6 +6,10 @@ This project contains various examples of how to use the [Fiix-Cmms-Java-Client 
 
 Documentation for the API can be found [here](https://fiixlabs.github.io/api-documentation).
 
+## Authentication
+Edit the [CredentialProvider](https://github.com/macmms/fiix-cmms-api-java-examples/blob/master/src/main/java/com/fiix/api/example/utils/CredentialProvider.java) class, to contain your instance's keys and URL. For more details see the [developer's guide](https://fiixlabs.github.io/api-documentation/guide.html#getting_started)
+
+## Examples
 Examples are separated into 3 classes, with added helper classes.
 
 ### RpcExample

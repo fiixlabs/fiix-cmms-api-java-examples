@@ -205,4 +205,8 @@ public class ResponseLogger {
 					country.getStrShort2()));
 		}
 	}
+
+	public static void logString(String string) {
+		LOGGER.info(string);
+	}
 }
