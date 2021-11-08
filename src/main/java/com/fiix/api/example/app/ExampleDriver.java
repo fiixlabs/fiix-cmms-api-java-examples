@@ -24,7 +24,7 @@ public class ExampleDriver {
 
 	public static void main(String[] args) {
 		if (isServerReachable()) {
-			executeCrudExamples(); //with proxy credentials; MyProxyCredentials:host=localhost:port=8888
+//			executeCrudExamples(); //with proxy credentials; MyProxyCredentials:host=localhost:port=8888. Comment this line out if proxy credentials are not to be used.
 			executeWorkOrderExample();
 			executeCustomFieldApi();
 		} else {
