@@ -15,7 +15,17 @@ Examples are separated into 3 classes, with added helper classes.
 ### RpcExample
 Describes the process of creating and making an Rpc Request. The request made in this example simply pings the server, and returns `true` or `false` depending on the success of the ping request.
 
-### CRUDExample:
+### CRUDExample for Assets without Proxy
+These Examples describe the process of:
+* Creating (adding) an Asset
+* Updating (changing) the fields on an Asset based on its Asset ID
+* Finding Multiple Assets with a Find Request
+* Finding AssetCategories by SysCode
+* Finding Assets by LocationId
+* Finding a Country by its shortened name
+* Removing an Asset
+
+### CRUDExample for Assets with Proxy
 These Examples describe the process of:
 * Creating (adding) an Asset
 * Updating (changing) the fields on an Asset based on its Asset ID
@@ -39,4 +49,5 @@ This example uses the class AssetExamples, to create Assets for use with Work Or
 
 1. Clone this repo into your project directory
 2. Run `mvn clean install`
-3. Run as a Standard Java Application using the main method found in `ExampleDriver.java`
+3. Add the tenant credentials (appKey, accessKey, secretKey and tenantUrl) in CredentialProvider.java
+4. Run as a Standard Java Application using the main method found in `ExampleDriver.java`

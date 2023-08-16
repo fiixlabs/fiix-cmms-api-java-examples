@@ -1,5 +1,5 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Mon Nov 08 16:27:45 UTC 2021
+#Wed Aug 16 18:32:33 UTC 2023
 https\://repo.fiixlabs.com/repository/fiix-public/.error=
-https\://repo.fiixlabs.com/repository/fiix-public/.lastUpdated=1636388865298
-https\://repo.maven.apache.org/maven2/.lastUpdated=1636388865776
+https\://repo.fiixlabs.com/repository/fiix-public/.lastUpdated=1692210753192
+https\://repo.maven.apache.org/maven2/.lastUpdated=1692210753823

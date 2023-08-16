@@ -46,7 +46,19 @@ public class CrudRequestExample {
 	 */
 	public CrudRequestExample() {
 		this.fiixCmmsClient = new FiixCmmsClient(CredentialProvider.getCredentials(),
-				CredentialProvider.TENANT_API_ENDPOINT, new MyProxyCredentials());
+				CredentialProvider.TENANT_API_ENDPOINT);
+	}
+
+	/**
+	 * Constructor used for injecting a <b>FiixCmmsClient</b> object. <br><br>
+	 * (Used primarily for testing).
+	 *
+	 * @param myProxyCredentials
+	 *            The Proxy Credentials to be used
+	 */
+	public CrudRequestExample(MyProxyCredentials myProxyCredentials) {
+		this.fiixCmmsClient = new FiixCmmsClient(CredentialProvider.getCredentials(),
+			CredentialProvider.TENANT_API_ENDPOINT, myProxyCredentials);
 	}
 
 	/**

@@ -52,4 +52,22 @@ public class MyProxyCredentials implements ProxyCredentials
 		this.proxyPassword = proxyPassword;
 	}
 
+	@Override
+	public String getSrcHost()
+	{
+		return null;
+	}
+
+	@Override
+	public String getDomain()
+	{
+		return null;
+	}
+
+	@Override
+	public AuthScheme getAuthScheme()
+	{
+		return null;
+	}
+
 }

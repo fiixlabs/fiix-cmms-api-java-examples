@@ -52,7 +52,7 @@ public class CustomFieldRpcExample
 		Error error = rpcResponse.getError();
 		if (error == null)
 		{
-			LOGGER.error("You have successfully made your call to the CustomFields.getCustomTableData API.");
+			LOGGER.info("You have successfully made your call to the CustomFields.getCustomTableData API.");
 		}
 		else
 		{
